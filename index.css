@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(49, 53, 53);
+    color: white;
+  }
+
+  div.Container {
+      display: flex;
+      flex-direction: column;
+      margin: 80px;
+      margin-left: 160px;
+      margin-right: 160px;
+  }
+  
+  div.Showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+div.TextDiv {
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+  }
+
+  img.Preview {
+    width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    float: right;
+  }
+
+  a, a.visited {
+    margin: 20px;
+    color:inherit !important;
+    text-decoration: none !important;
+  }
+
+  a :hover {
+    background-color: rgb(78, 89, 89);
+    transition-duration: 0.2s;
+  }
