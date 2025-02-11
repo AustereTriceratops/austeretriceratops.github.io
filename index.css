@@ -1,46 +1,53 @@
 body {
-    background-color: rgb(49, 53, 53);
+    background-color: rgb(43, 47, 41);
     color: white;
+    user-select: none;
   }
 
-  div.Container {
-      display: flex;
-      flex-direction: column;
-      margin: 80px;
-      margin-left: 160px;
-      margin-right: 160px;
-  }
-  
-  div.Showcase {
+div.Container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    border-radius: 20px;
-    border-width: 2px;
-    border-style: solid;
+    flex-direction: column;
+    gap: 30px;
+    margin: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+  
+div.Showcase {
+  display: flex;
+  height: 180px;
 }
 
-div.TextDiv {
-    font-size: 32px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: auto;
-  }
+div.InfoCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  flex-grow: 2;
+  border-radius: 18px;
+  background-color: #1d1d1d;
+}
 
-  img.Preview {
-    width: 240px;
-    height: 120px;
-    border-radius: 18px;
-    float: right;
-  }
+div.TitleDiv {
+  font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  a, a.visited {
-    margin: 20px;
-    color:inherit !important;
-    text-decoration: none !important;
-  }
+img.Preview {
+  width: 240px;
+  height: 180px;
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+  opacity: 85%
+}
 
-  a :hover {
-    background-color: rgb(78, 89, 89);
-    transition-duration: 0.2s;
-  }
+a, a.visited {
+  color:inherit !important;
+  text-decoration: none !important;
+}
+
+a :hover {
+  background-color: rgb(78, 89, 89);
+  transition-duration: 0.2s;
+  opacity: 100%
+}
