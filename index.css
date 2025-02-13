@@ -60,11 +60,11 @@ img.Preview {
 }
 
 img.externalIcon {
+  width: 20px;
+  height: 20px;
   background-color: white;
   border-radius: 10px;
   padding: 3px;
-  width: 20px;
-  height: 20px;
   opacity: 85%;
 }
 
